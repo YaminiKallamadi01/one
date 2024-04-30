@@ -1,20 +1,36 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>DevOps</title>	
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pleasant Nature</title>
+<style>
+  body {
+    background-color: #D3E0DC;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+  }
+  h1 {
+    color: #4A5C5F;
+  }
+  p {
+    color: #4A5C5F;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+</style>
 </head>
 <body>
-	<h1 style="color: violet; font-size: 40px;" align="center">HEY WE DEPLOYED OUR APP USING JENKINS</h1>
-	<h1 style="color: red; font-size: 40px;" align="center">THIS IS APP DEPLOYMENT USING TOMCAT</h1>
-	<h1 style="color: blue; font-size: 40px;" align="center">THIS IS CI/CD</h1>
-	<h1 style="color: green; font-size: 40px;" align="center">THIS IS NEW VERSION</h1>
-	<h1 style="color: yellow; font-size: 40px;" align="center">ButterFly ButterFly where are you going </h1>
-	
-	
-	
-	
-	
-	
-	
-	
+<div class="container">
+  <h1>A Serene Moment</h1>
+  <p>Take a deep breath and immerse yourself in the tranquility of nature. Listen to the gentle rustle of leaves and feel the warmth of the sun on your skin. Let the peaceful surroundings soothe your mind and rejuvenate your spirit.</p>
+</div>
 </body>
 </html>
