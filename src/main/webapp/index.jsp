@@ -3,39 +3,60 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nature Page</title>
+<title>Login Page</title>
 <style>
   body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpicjumbo.com%2Ffree-stock-photos%2Fnature%2F&psig=AOvVaw30eGZ2TSelcWVvCJs0RKoU&ust=1714575412236000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCND83aSZ6oUDFQAAAAAdAAAAABAI/1920x1080');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
   }
-  .overlay {
-    background-color: rgba(255, 255, 255, 0.8);
+  .container {
+    width: 300px;
+    margin: 100px auto;
     padding: 20px;
-    border-radius: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   }
-  h1 {
+  h2 {
+    text-align: center;
     color: #333333;
   }
-  p {
-    color: #333333;
-    font-size: 18px;
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
   }
 </style>
 </head>
 <body>
-<div class="overlay">
-  <h1>Welcome to Nature</h1>
-  <p>Take a moment to breathe in the beauty and tranquility of the natural world.</p>
+<div class="container">
+  <h2>Login</h2>
+  <form action="#" method="post">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+    <input type="submit" value="Login">
+  </form>
 </div>
 </body>
 </html>
