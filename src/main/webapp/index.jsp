@@ -8,7 +8,7 @@
   body {
     margin: 0;
     padding: 0;
-    background-image: url('https://via.placeholder.com/1920x1080');
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fpicjumbo.com%2Ffree-stock-photos%2Fnature%2F&psig=AOvVaw30eGZ2TSelcWVvCJs0RKoU&ust=1714575412236000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCND83aSZ6oUDFQAAAAAdAAAAABAI/1920x1080');
     background-size: cover;
     background-position: center;
     height: 100vh;
