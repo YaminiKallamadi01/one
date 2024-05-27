@@ -1,29 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-    <style>
-        /* CSS styles can be added here */
-    </style>
+<title>DevOps</title>	
 </head>
 <body>
-
-    <header>
-        <h1>Your Website Title</h1>
-        <!-- Add navigation links here -->
-    </header>
-
-    <main>
-        <!-- Your main content goes here -->
-        <p>Welcome to my website!</p>
-    </main>
-
-    <footer>
-        <!-- Footer content goes here -->
-        <p>&copy; 2024 Your Website Name</p>
-    </footer>
-
-</body>
-</html>
+<h1 style="color: violet; font-size: 40px;" align="center">HEY WE DEPLOYED OUR APP USING JENKINS</h1>
+<h1 style="color: red; font-size: 40px;" align="center">THIS IS APP DEPLOYMENT USING TOMCAT</h1>
+<h1 style="color: blue; font-size: 40px;" align="center">THIS IS CI/CD</h1>
+<h1 style="color: green; font-size: 40px;" align="center">THIS IS NEW VERSION</h1>
+<h1 style="color: blue; font-size: 40px;" align="center">THIS IS SECONDVERSION</h1>
+<img src="https://svgmovies.sfo3.digitaloceanspaces.com/sofancys/uploads/2023/12/11032915/retro-xaden-riorson-house-svg.jpg" alt="W3Schools.com">
